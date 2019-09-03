@@ -197,6 +197,7 @@
       },
       languageListHtml: function () {
         let vm = this
+        /* eslint */
         let nav = window.navigator
         if (!vm.profile.languages) return ''
         let preferredLanguageCode = nav.languages
