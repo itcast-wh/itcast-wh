@@ -1,6 +1,6 @@
 ---
 home: true
-actionText: 快速上手 →
+actionText: Fast →
 actionLink: /en
 features:
   - title: 简洁至上
@@ -12,4 +12,4 @@ features:
 footer: MIT Licensed | Copyright © 2018-present Evan You
 ---
 
-Hello world from english
+尽请期待

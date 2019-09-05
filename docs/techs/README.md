@@ -1,6 +1,7 @@
 ---
 title: 总纲
 lang: zh-CN
+sidebarDepth: 1
 ---
 
 整体大纲分为两个部分，原理部分+实战部分，针对线下课程的扩展。
@@ -43,7 +44,7 @@ lang: zh-CN
 - 浏览器原理及性能优化
 - Typescript
 - css
-- web安全
+- web 安全
 - 通用设计模式
 - 常规面试题
 
@@ -56,16 +57,16 @@ lang: zh-CN
 ### 前端工程化
 
 - Webpack
-- CLI及脚手架工具
+- CLI 及脚手架工具
 - 持续集成
 - 项目管理
 
 ### Node.js 进阶
 
-- NodeAPI进阶
+- NodeAPI 进阶
 - Node.js 网络
 - Node.js 事件循环与多进程
--  数据库
+- 数据库
 - Web 应用开发框架
 - BaaS 接口标准
 - 通用业务模块
