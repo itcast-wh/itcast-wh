@@ -18,11 +18,12 @@ module.exports = {
       title: '传智播客前端课程研发组',
       description: '为千万学生改变命运而讲课，为莘莘学子少走弯路而著书'
     },
-    '/en/': {
-      lang: 'en-US', // 将会被设置为 <html> 的 lang 属性
-      title: 'Itcast Wuhan Front-end Research Center',
-      description: 'To teach for change students\' destiny, to write for students to take less detours'
-    }
+    // 暂且隐藏
+    // '/en/': {
+    //   lang: 'en-US', // 将会被设置为 <html> 的 lang 属性
+    //   title: 'Itcast Wuhan Front-end Research Center',
+    //   description: 'To teach for change students\' destiny, to write for students to take less detours'
+    // }
   },
   themeConfig: {
     // 取消自动生成sidebar手动输入
@@ -48,8 +49,8 @@ module.exports = {
         nav: [
           { text: '首页', link: '/' },
           { text: '技术分享', link: '/techs/' },
-          { text: '工具', link: '/tools/' },
-          { text: '博客', link: 'https://itcast-wh.github.io/' },
+          // { text: '工具', link: '/tools/' },
+          // { text: '博客', link: 'https://itcast-wh.github.io/' },
           { text: '团队', link: '/teams/' },
         ],
         sidebar: {
