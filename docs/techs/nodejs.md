@@ -242,3 +242,37 @@ sidebarDepth: 2
 1. 掌握 selenium 的基本使用
 2. 掌握使用 selenium 爬取动态网站
 3. 了解常见的反爬虫机制
+
+## websocket 基础
+
+### websocket 基本概念
+
+**知识点**
+websocket 介绍
+
+**知识目标**
+对 websocket 有一定的了解
+
+### websocket 基本使用
+
+**知识点**
+
+1. websocket 属性
+2. websocket 事件
+3. websocket 方法
+
+**知识目标**
+学会 websocket 的基本使用流程
+
+## websocket 应用
+
+### 基于 websocket 实现简单的聊天工具
+
+**知识点**
+
+1. 基于 nodejs 实现聊天接口
+2. 聊天页面开发
+3. 使用 websocket 实现基本聊天功能
+
+**知识目标**
+能够用 websocket 开发一个简单的聊天器
