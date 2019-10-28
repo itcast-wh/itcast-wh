@@ -1,22 +1,22 @@
-const path = require('path')
+const path = require("path")
 
-console.log(path.join(path.resolve('./statics')));
+console.log(path.join(path.resolve("./statics")))
 
 module.exports = {
   configureWebpack: {
     resolve: {
       alias: {
-        '@static': path.join(path.resolve('./statics'))
-      }
-    }
+        "@static": path.join(path.resolve("./statics")),
+      },
+    },
   },
   locales: {
     // 键名是该语言所属的子路径
     // 作为特例，默认语言可以使用 '/' 作为其路径。
-    '/': {
-      lang: 'zh-CN',
-      title: '传智播客前端课程研发组',
-      description: '为莘莘学子改变命运而讲课，为千万学生少走弯路而著书！'
+    "/": {
+      lang: "zh-CN",
+      title: "传智播客前端课程研发组",
+      description: "为莘莘学子改变命运而讲课，为千万学生少走弯路而著书！",
     },
     // 暂且隐藏
     // '/en/': {
@@ -30,95 +30,113 @@ module.exports = {
     // sidebar: 'auto',
     displayAllHeaders: true,
     locales: {
-      '/': {
+      "/": {
         // 多语言下拉菜单的标题
-        selectText: '选择语言',
+        selectText: "选择语言",
         // 该语言在下拉菜单中的标签
-        label: '简体中文',
+        label: "简体中文",
         // 编辑链接文字
-        editLinkText: '在 GitHub 上编辑此页',
+        editLinkText: "在 GitHub 上编辑此页",
         // Service Worker 的配置
         serviceWorker: {
           updatePopup: {
             message: "发现新内容可用.",
-            buttonText: "刷新"
-          }
+            buttonText: "刷新",
+          },
         },
         // 当前 locale 的 algolia docsearch 选项
         algolia: {},
         nav: [
-          { text: '首页', link: '/' },
-          { text: '技术分享', link: '/techs/' },
-          // { text: '工具', link: '/tools/' },
+          { text: "首页", link: "/" },
+          { text: "v7.0大纲", link: "/techs/" },
+          // { text: "工具", link: "/tools/" },
+          {
+            text: "技术输出",
+            ariaLabel: "Techs",
+            items: [
+              {
+                text: "任务管理Tasks",
+                link: "https://tasks.itcastor.com:11443",
+              },
+              {
+                text: "自动化平台Jenkins",
+                link: "https://jenkins.itcastor.com:12443/",
+              },
+              {
+                text: "内部文档",
+                link: "https://doc.itcastor.com:13443/",
+              },
+            ],
+          },
           // { text: '博客', link: 'https://itcast-wh.github.io/' },
-          { text: '团队', link: '/teams/' },
+          { text: "团队", link: "/teams/" },
         ],
         sidebar: {
-          '/techs/': genSidebarConfig('技术分享'),
-          '/teams/': [
+          "/techs/": genSidebarConfig("技术分享"),
+          "/teams/": [
             {
-              title: '团队介绍',
+              title: "团队介绍",
               collapsable: false,
-              children: [
-                '',
-                './join',
-                './coc'
-              ]
-            }
-          ]
-        }
+              children: ["", "./join", "./coc"],
+            },
+          ],
+        },
       },
-      '/en/': {
-        selectText: 'Languages',
-        label: 'English',
-        editLinkText: 'Edit this page on GitHub',
+      "/en/": {
+        selectText: "Languages",
+        label: "English",
+        editLinkText: "Edit this page on GitHub",
         serviceWorker: {
           updatePopup: {
             message: "New content is available.",
-            buttonText: "Refresh"
-          }
+            buttonText: "Refresh",
+          },
         },
         algolia: {},
         nav: [
-          { text: 'Home', link: '/' },
-          { text: 'Techs', link: '/techs' },
-          { text: 'Tools', link: '/tools/' },
-          { text: 'Blog', link: 'https://itcast-wh.github.io/' },
-          { text: 'Team', link: '/teams/' },
+          { text: "Home", link: "/" },
+          { text: "Techs", link: "/techs" },
+          { text: "Tools", link: "/tools/" },
+          { text: "Blog", link: "https://itcast-wh.github.io/" },
+          { text: "Team", link: "/teams/" },
         ],
         sidebar: {
-          '/': [/* ... */],
-          '/nested/': [/* ... */]
-        }
-      }
+          "/": [
+            /* ... */
+          ],
+          "/nested/": [
+            /* ... */
+          ],
+        },
+      },
     },
     serviceWorker: {
-      updatePopup: true // Boolean | Object, 默认值是 undefined.
-      // 如果设置为 true, 默认的文本配置将是: 
-      // updatePopup: { 
-      //    message: "New content is available.", 
-      //    buttonText: "Refresh" 
+      updatePopup: true, // Boolean | Object, 默认值是 undefined.
+      // 如果设置为 true, 默认的文本配置将是:
+      // updatePopup: {
+      //    message: "New content is available.",
+      //    buttonText: "Refresh"
       // }
     },
     // 假定是 GitHub. 同时也可以是一个完整的 GitLab URL
-    repo: 'itcast-wh/itcast-wh',
+    repo: "itcast-wh/itcast-wh",
     // 自定义仓库链接文字。默认从 `themeConfig.repo` 中自动推断为
     // "GitHub"/"GitLab"/"Bitbucket" 其中之一，或是 "Source"。
-    repoLabel: '查看源码',
+    repoLabel: "查看源码",
 
     // 以下为可选的编辑链接选项
 
     // 假如你的文档仓库和项目本身不在一个仓库：
-    docsRepo: 'itcast-wh/itcast-wh',
+    docsRepo: "itcast-wh/itcast-wh",
     // 假如文档不是放在仓库的根目录下：
-    docsDir: 'docs',
+    docsDir: "docs",
     // 假如文档放在一个特定的分支下：
-    docsBranch: 'master',
+    docsBranch: "master",
     // 默认是 false, 设置为 true 来启用
     editLinks: true,
     // 默认为 "Edit this page"
-    editLinkText: '帮助我们改善此页面！'
-  }
+    editLinkText: "帮助我们改善此页面！",
+  },
 }
 
 function genSidebarConfig(title) {
@@ -127,14 +145,14 @@ function genSidebarConfig(title) {
       title,
       collapsable: false,
       children: [
-        '',
-        'base',
-        'mvvm',
-        'projects',
-        'nodejs',
-        'multi-app',
-        'algorithm',
-      ]
-    }
+        "",
+        "base",
+        "mvvm",
+        "projects",
+        "nodejs",
+        "multi-app",
+        "algorithm",
+      ],
+    },
   ]
 }
