@@ -12,6 +12,8 @@ features:
 footer: MIT Licensed | Copyright © 2019-present 传智播客前端组
 ---
 
+<iframe frameborder="0" src="https://v.qq.com/txp/iframe/player.html?vid=p304534gemq" width="100%" height="600" allowFullScreen="true"></iframe>
+
 ## 目前计划
 
 - 完成新版大纲的更新，更新知识树
