@@ -26,11 +26,11 @@ sidebar: "auto"
 
 ## 重要活动
 
-### 传智诸葛团队 20200226
+### 20200226-传智诸葛团队 
 ![传智诸葛团队](~@static/2020/zhuge.png)
 
 
-### 公示平台第一期 20200120
+### 20200120-公示平台第一期 
 
 主要完成了公示平台第一版前后端功能：
 - 登录注册，登录注册信息缓存
@@ -43,3 +43,15 @@ sidebar: "auto"
 - 前端：https://github.com/itcast-wh/public-board-api
 - 后端：https://github.com/itcast-wh/public-board-ui
 - 视频介绍：链接:https://pan.baidu.com/s/1AveEV1Wb-1N3KBrAXa9LgQ  密码:pqvr
+
+### 20200111-公司2020年年会
+
+#### 荣获 2020年优秀团队
+优秀团队：
+![team](~@static/2020/team.jpeg)
+
+#### 年会节目：
+链接:https://pan.baidu.com/s/1KCSONscychLBP5sK8iex3g  密码:7l59
+
+#### 公司团队：
+![team](~@static/2020/all.jpeg)
