@@ -50,24 +50,24 @@ module.exports = {
           { text: "首页", link: "/" },
           { text: "v7.0大纲", link: "/techs/" },
           // { text: "工具", link: "/tools/" },
-          // {
-          //   text: "技术输出",
-          //   ariaLabel: "Techs",
-          //   items: [
-          //     {
-          //       text: "任务管理Tasks",
-          //       link: "https://tasks.itcastor.com:11443",
-          //     },
-          //     {
-          //       text: "自动化平台Jenkins",
-          //       link: "https://jenkins.itcastor.com:12443/",
-          //     },
-          //     {
-          //       text: "内部文档",
-          //       link: "https://doc.itcastor.com:13443/",
-          //     },
-          //   ],
-          // },
+          {
+            text: "技术输出",
+            ariaLabel: "Techs",
+            items: [
+              {
+                text: "任务管理Tasks",
+                link: "http://jira-frontend.itheima.net/",
+              },
+              // {
+              //   text: "自动化平台Jenkins",
+              //   link: "https://jenkins.itcastor.com:12443/",
+              // },
+              // {
+              //   text: "内部文档",
+              //   link: "https://doc.itcastor.com:13443/",
+              // },
+            ],
+          },
           // { text: '博客', link: 'https://itcast-wh.github.io/' },
           { text: "团队", link: "/teams/" },
         ],

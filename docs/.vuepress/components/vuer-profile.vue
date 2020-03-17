@@ -69,17 +69,6 @@ let coreMembers = [
     }
   },
   {
-    name: "杨川",
-    title: "课程研究员",
-    city: "Wuhan, China",
-    languages: ["zh", "en"],
-    github: "ericyang89",
-    work: {
-      role: "课程研究员",
-      org: "武汉校区研究中心"
-    }
-  },
-  {
     name: "任彬",
     title: "前端研究员",
     city: "武汉, 湖北, 中国",
