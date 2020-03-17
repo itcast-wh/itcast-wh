@@ -58,10 +58,10 @@ module.exports = {
                 text: "任务管理Tasks",
                 link: "http://jira-frontend.itheima.net/",
               },
-              // {
-              //   text: "自动化平台Jenkins",
-              //   link: "https://jenkins.itcastor.com:12443/",
-              // },
+              {
+                text: "数据公示平台meta（移动端）",
+                link: "http://board-web.itheima.net/",
+              },
               // {
               //   text: "内部文档",
               //   link: "https://doc.itcastor.com:13443/",
@@ -70,6 +70,7 @@ module.exports = {
           },
           // { text: '博客', link: 'https://itcast-wh.github.io/' },
           { text: "团队", link: "/teams/" },
+          { text: "活动", link: "/infos/" },
         ],
         sidebar: {
           "/techs/": genSidebarConfig("技术分享"),
@@ -139,7 +140,7 @@ module.exports = {
   },
 }
 
-function genSidebarConfig(title) {
+function genSidebarConfig (title) {
   return [
     {
       title,
