@@ -46,17 +46,6 @@ let coreMembers = [
     links: ["https://itcast-wh.github.io/"]
   },
   {
-    name: "熊瑾",
-    title: "课程研究员",
-    city: "Wuhan, China",
-    languages: ["zh", "en"],
-    github: "mood6666",
-    work: {
-      role: "课程研究员",
-      org: "武汉校区研究中心"
-    }
-  },
-  {
     name: "李威",
     title: "课程研究员",
     city: "Wuhan, China",
