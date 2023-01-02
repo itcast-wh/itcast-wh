@@ -26,7 +26,7 @@
   "homepage": "https://github.com/itcast-wh/itcast-wh#readme",
   "devDependencies": {
     "sass": "^1.32.8",
-    "sass-loader": "^10.1.1",
+    "sass-loader": "^10.4.1",
     "vuepress": "^1.8.2"
   }
 }
